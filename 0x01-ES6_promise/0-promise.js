@@ -1,4 +1,3 @@
-export default function getResponseFromAPI () {
-  return Promise.resolve({ data: 'Mock API response' });
+export default function getResponseFromAPI() {
+  return new Promise(() => {});
 }
-
